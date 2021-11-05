@@ -206,6 +206,68 @@ a{
 }
 /* END CONSOLE PS5 */
 
+/* IT TAKES TWO */
+.it-takes-two-container{
+    background-color: #1f1f1f;
+}
+
+#it-takes-two-banner{
+    width: 30%;
+}
+
+#it-takes-two-container{
+    top: 10%;
+}
+
+.itt-subtitle{
+    color: white;
+}
+/* END IT TAKES TWO */
+
+/* ESPLORA PS4 */
+.ps4-title{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.esplora-ps4{
+    padding: 50px 0px;
+}
+
+/* END ESPLORA PS4 */
+
+/* PLAYSTATION PLUS */
+.ps-plus{
+    background-color: #bebcbb;
+}
+
+.ps-plus-text{
+    padding: 50px 0px;
+}
+
+.ps-plus-text p{
+    padding: 20px 0px;
+}
+
+.ps-plus-text a{
+    padding: 8px;
+    background-color: #d9dadc;
+    border-radius: 10px;
+}
+
+.ps-plus-img{
+    display: none;
+}
+
+/* MEDIA PLAYSTATION PLUS */
+@media (min-width: 768px){
+    .ps-plus-img{
+        display: block;
+    }
+}
+
+/* END PLAYSTATION PLUS */
 
 
 
