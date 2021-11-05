@@ -4,10 +4,28 @@ body{
 
 header{
     font-family: Helvetica, arial, sans-serif;
+    width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 /* COMMON */
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.padding-icon{
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+}
+
 li{
     list-style-type: none;
 }
@@ -33,6 +51,11 @@ a{
 /* END HEADER TOP */
 
 /* HEADER BOTTOM */
+.header-bottom{
+    background-color: white;
+    
+}
+
 .logo-nav {
     width: 3%;
 }
@@ -89,3 +112,102 @@ a{
 
 
 /* END HEADER */
+
+/* MAIN */
+
+/* JUMBOTRON RETURNAL */
+.returnal-text{
+    width: 90%;
+    top: 3%;
+    left: 5%;
+    color: white;
+    
+}
+
+.returnal-background{
+    margin-bottom: 30px;
+}
+
+.returnal-background p{
+    font-size: 12px;
+}
+
+.returnal-background .btn{
+    font-size: 12px;
+}
+
+.padding-icon img{
+    border-radius: 10px;
+}
+
+/* MEDIA JUMBOTRON RETURNAL */
+@media (min-width: 992px){
+    .returnal-text{
+        width: 30%;
+        top: 30%;
+        left: 3%;
+        color: white;
+    }
+}
+
+/* END JUMBOTRON RETURNAL */
+
+/* ECCO PS% */
+.ecco-ps5{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.no-limit{
+    font-size: 10px;
+    color: #7db7e5;
+}
+
+.tuffati{
+    color: #b0b0b0;
+}
+/* END ECCO PS% */
+
+/* CONSOLE PS5 */
+.console-ps5{
+    padding: 20px 0px;
+}
+
+.console-ps5 img{
+    width: 80%;
+}
+
+.console-ps5 h3{
+    padding-top: 20px;
+}
+
+.console-ps5 .col-left{
+    text-align: center;
+}
+
+.console-ps5 .col-right{
+    text-align: center;
+}
+
+.console-ps5-text{
+    margin: 20px 0px;
+}
+
+.ps5-gadget img{
+    width: 40%;
+}
+
+.ps5-gadget .col{
+    text-align: center;
+}
+
+.ps5-gadget .col :hover{
+    border-bottom: 1px solid blue;
+}
+/* END CONSOLE PS5 */
+
+
+
+
+
+/* END MAIN */
