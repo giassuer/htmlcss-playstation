@@ -8,6 +8,9 @@ header{
     position: fixed;
     z-index: 2;
 }
+main{
+    padding-top: 86px;
+}
 
 /* COMMON */
 .absolute{
@@ -266,8 +269,66 @@ a{
         display: block;
     }
 }
-
 /* END PLAYSTATION PLUS */
+
+/* SCONTI */
+.sconti{
+    padding: 50px 0px;
+}
+
+.sconti-title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px;
+
+}
+
+.col-sconti {
+    padding: 10px;
+}
+
+.col-sconti img{
+    width: 90%;
+}
+
+.sconti .row{
+    text-align: center;
+}
+/* END SCONTI */
+
+/* PS NOW */
+#btn-ps-now{
+    background-color: #f3f3f3;
+    color: black;
+}
+
+#ps-now-background{
+    background-color: #161c3b;
+}
+
+#ps-plus-p{
+    color: white;
+}
+/* END PS NOW */
+
+/* SOCIAL */
+.social{
+    width: 60%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.social h3{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.social-img{
+    padding: 10px;
+}
+/* END SOCIAL */
+
 
 
 
