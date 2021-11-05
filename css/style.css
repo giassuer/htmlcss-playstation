@@ -329,8 +329,40 @@ a{
 }
 /* END SOCIAL */
 
-
-
-
-
 /* END MAIN */
+
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    color: white;
+    padding: 50px 0px;
+    font-size: 12px;
+}
+
+.logo-footer-top img{
+    width: 20%;
+}
+
+.globe img{
+    width: 6%;
+}
+
+.sie img{
+    width: 20%;
+}
+
+/* MEDIA FOOTER */
+@media (min-width: 576px){
+    .col-footer-right{
+        display: flex;
+    }
+}
+
+@media (min-width: 768px){
+    .col-footer-right{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+/* END FOOTER */
