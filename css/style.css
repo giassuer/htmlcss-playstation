@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
+    font-weight: 550;
 }
 
 header{
@@ -10,6 +10,7 @@ header{
 }
 main{
     padding-top: 86px;
+    font-family: Arial, sans-serif;
 }
 
 /* COMMON */
@@ -36,6 +37,14 @@ li{
 a{
     text-decoration: none;
 }
+
+.black{
+    color: black;
+}
+
+.grey{
+    color: #747474;
+}
 /* END COMMON */
 
 /* HEADER */
@@ -55,12 +64,19 @@ a{
 
 /* HEADER BOTTOM */
 .header-bottom{
-    background-color: white;
-    
+    background-color: white;  
+}
+
+.nav-list-left a{
+    color: black;
+}
+
+.header-bottom i{
+    color: lightgray;
 }
 
 .logo-nav {
-    width: 3%;
+    width: 30px;
 }
 
 .burger{
@@ -166,9 +182,6 @@ a{
     color: #7db7e5;
 }
 
-.tuffati{
-    color: #b0b0b0;
-}
 /* END ECCO PS% */
 
 /* CONSOLE PS5 */
@@ -229,7 +242,7 @@ a{
 
 /* ESPLORA PS4 */
 .ps4-title{
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: center;
 }
@@ -339,16 +352,30 @@ footer{
     font-size: 12px;
 }
 
-.logo-footer-top img{
-    width: 20%;
+.logo-footer-top{
+    padding-bottom: 20px;
 }
+
+.logo-footer-top img{
+    width: 15%;
+}
+
 
 .globe img{
     width: 6%;
 }
 
+.sie{
+    padding-top: 20px;
+}
+
 .sie img{
     width: 20%;
+}
+
+.mag-info{
+    color: white;
+    text-decoration: underline;
 }
 
 /* MEDIA FOOTER */
