@@ -227,6 +227,7 @@ a{
     border-bottom: 1px solid blue;
     opacity: 1;
 }
+
 /* END CONSOLE PS5 */
 
 /* IT TAKES TWO */
@@ -252,6 +253,11 @@ a{
     width: 60%;
     margin: auto;
     text-align: center;
+}
+
+.r{
+    font-size: 8px;
+    vertical-align: top;
 }
 
 .esplora-ps4{
