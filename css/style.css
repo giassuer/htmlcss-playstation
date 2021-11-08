@@ -7,6 +7,7 @@ header{
     width: 100%;
     position: fixed;
     z-index: 2;
+    height: 96px;
 }
 main{
     padding-top: 86px;
@@ -67,6 +68,10 @@ a{
     background-color: white;  
 }
 
+.header-bottom ul{
+    margin-top: 10px;
+}
+
 .nav-list-left a{
     color: black;
 }
@@ -80,7 +85,7 @@ a{
 }
 
 .burger{
-    font-size: 20px;
+    font-size: 20px;    
 }
 
 .nav-list-right{
@@ -171,7 +176,7 @@ a{
 
 /* END JUMBOTRON RETURNAL */
 
-/* ECCO PS% */
+/* ECCO PS5 */
 .ecco-ps5{
     text-align: center;
     padding: 30px 0px;
@@ -182,7 +187,7 @@ a{
     color: #7db7e5;
 }
 
-/* END ECCO PS% */
+/* END ECCO PS5 */
 
 /* CONSOLE PS5 */
 .console-ps5{
@@ -215,10 +220,12 @@ a{
 
 .ps5-gadget .col{
     text-align: center;
+    opacity: 0.5;
 }
 
-.ps5-gadget .col :hover{
+.ps5-gadget :hover{
     border-bottom: 1px solid blue;
+    opacity: 1;
 }
 /* END CONSOLE PS5 */
 
